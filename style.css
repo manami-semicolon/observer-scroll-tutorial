@@ -9,10 +9,10 @@
 }
 
 body {
-  background: linear-gradient(#308bc0, #c36f48);
   height: 100%;
   width: 100%;
-  background-image: url("./images/1.jpg");
+  background-image: url("./images/main.jpg");
+  background-size: cover;
   background-attachment: fixed;
 }
 
@@ -63,7 +63,7 @@ section {
 .img-wrap.active {
   width: 40vw;
   opacity: 1;
-  transition: opacity 2s, width 2s;
+  transition: opacity 1s, width 2s;
 }
 
 .img {
